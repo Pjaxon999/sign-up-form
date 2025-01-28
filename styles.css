@@ -39,7 +39,6 @@ img {
     height: 12.5ch;
 }
 
-
 .wrapper {
     display: flex;
     flex-flow: row nowrap;
@@ -95,8 +94,13 @@ img {
     margin-top: 100px;
 }
 
-.form-main{
+.form-main {
     background-color: #FFF;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
 }
 
 #root, #__next {
